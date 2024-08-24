@@ -1,0 +1,15 @@
+classes_map_dir: G:\T5\classes_map.json
+prefix_text: mrpc sentence1:
+pretrained_model_name_or_path: t5-base
+num_train_epochs: 10
+batch_size: 8
+use_weighted_random_sampler: False
+device: cpu
+num_workers: 8
+data_dir: G:\T5\dataset
+save_weights_path: G:\T5\weights
+use_Adafactor: True
+use_AdafactorSchedule: True
+learning_rate: 0.0001
+lr_warmup_steps: 0
+weight_decay: 0

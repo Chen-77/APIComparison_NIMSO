@@ -1,0 +1,61 @@
+classes_map_dir: G:\T5\classes_map.json
+prefix_text: mrpc sentence1:
+pretrained_model_name_or_path: t5-base
+num_train_epochs: 5
+batch_size: 16
+use_weighted_random_sampler: False
+device: cpu
+num_workers: 8
+data_dir: G:\T5\dataset
+save_weights_path: G:\T5\weights
+use_Adafactor: True
+use_AdafactorSchedule: True
+learning_rate: 1e-05
+lr_warmup_steps: 0
+weight_decay: 0
+resume: True
+====================================================================================================
+epoch: 0
+learning_rate: 0.015666868537664413
+train_loss: 0.5068535226590636
+train_accuracy: 0.5222839135654261
+dev_accuracy: 0.5293941211757649
+dev_precision: 0.21025641025641026
+dev_recall: 0.36889460154241643
+dev_f1: 0.26784881007932804
+====================================================================================================
+epoch: 1
+learning_rate: 0.031455669552087784
+train_loss: 0.11130604280286334
+train_accuracy: 0.6323529411764706
+dev_accuracy: 0.5434913017396521
+dev_precision: 0.2215568862275449
+dev_recall: 0.38046272493573263
+dev_f1: 0.28003784295175027
+====================================================================================================
+epoch: 2
+learning_rate: 0.04743049293756485
+train_loss: 0.09545304938381603
+train_accuracy: 0.713985594237695
+dev_accuracy: 0.4709058188362327
+dev_precision: 0.21828571428571428
+dev_recall: 0.4910025706940874
+dev_f1: 0.3022151898734177
+====================================================================================================
+epoch: 3
+learning_rate: 0.0636889785528183
+train_loss: 0.08431702759228692
+train_accuracy: 0.7798619447779112
+dev_accuracy: 0.47690461907618475
+dev_precision: 0.21983758700696054
+dev_recall: 0.487146529562982
+dev_f1: 0.30295763389288566
+====================================================================================================
+epoch: 4
+learning_rate: 0.0803082063794136
+train_loss: 0.06840400650006097
+train_accuracy: 0.8191776710684273
+dev_accuracy: 0.41211757648470304
+dev_precision: 0.22253521126760564
+dev_recall: 0.609254498714653
+dev_f1: 0.32599724896836313

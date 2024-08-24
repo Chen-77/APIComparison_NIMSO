@@ -1,0 +1,42 @@
+classes_map_dir: G:\T5\classes_map.json
+prefix_text: mrpc sentence1:
+pretrained_model_name_or_path: t5-base
+num_train_epochs: 5
+batch_size: 16
+use_weighted_random_sampler: False
+device: cpu
+num_workers: 8
+data_dir: G:\T5\dataset
+save_weights_path: G:\T5\weights
+use_Adafactor: True
+use_AdafactorSchedule: True
+learning_rate: 1e-05
+lr_warmup_steps: 0
+weight_decay: 0
+====================================================================================================
+epoch: 0
+learning_rate: 0.015670152381062508
+train_loss: 0.506734676292392
+train_accuracy: 0.5282112845138055
+dev_accuracy: 0.740251949610078
+dev_precision: 0.2411764705882353
+dev_recall: 0.05269922879177378
+dev_f1: 0.08649789029535865
+====================================================================================================
+epoch: 1
+learning_rate: 0.031456250697374344
+train_loss: 0.11031870023399985
+train_accuracy: 0.6370048019207684
+dev_accuracy: 0.5065986802639472
+dev_precision: 0.2230031948881789
+dev_recall: 0.448586118251928
+dev_f1: 0.29790866410584715
+====================================================================================================
+epoch: 2
+learning_rate: 0.047429803758859634
+train_loss: 0.10072837728841537
+train_accuracy: 0.7116596638655462
+dev_accuracy: 0.5914817036592681
+dev_precision: 0.22504708097928436
+dev_recall: 0.30719794344473006
+dev_f1: 0.2597826086956522
