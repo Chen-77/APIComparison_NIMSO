@@ -13,4 +13,4 @@ python run_classifier.py \
 --train_batch_size=16 \
 --learning_rate=1e-5 \
 --num_train_epochs=5 \
---output_dir=./output \
+--output_dir=./output
