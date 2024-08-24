@@ -1,6 +1,6 @@
 # APIComparison_NIMSO
 Code and data of API Comparison Based on the Non-functional Information Mined from Stack Overflow \
-An example:
+An example: \
 python run_classifier.py \
 --task_name=performance \
 --do_train=true \
