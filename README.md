@@ -1,5 +1,5 @@
 # APIComparison_NIMSO
-### Code and data of API Comparison Based on the Non-functional Information Mined from Stack Overflow 
+### Code and data of API Comparison Based on the Non-functional Information Mined from Stack Overflow. 
 An example: 
 ```
 python run_classifier.py \
@@ -17,4 +17,4 @@ python run_classifier.py \
   --num_train_epochs= 5 \
   --output_dir= ./output
 ```
-### Due to the limitation of uploading large files, we make the trained model and the basic model public at .
+### Due to the limitation of uploading large files, we make the trained model and the basic model public at https://pan.baidu.com/s/1Ge0J9qGP3ls8MCNk3ZlcYA. The extraction code is 0824.
