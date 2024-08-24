@@ -6,7 +6,7 @@ python run_classifier.py \
 --do_eval=true \
 --do_predict=true \
 --data_dir=./aspect_data \
---vocab_file=./bert_base/NER_bert/BERT_BASE_DIR/uncased_L-12_H-768_A-12/vocab.txt
+--vocab_file=./bert_base/NER_bert/BERT_BASE_DIR/uncased_L-12_H-768_A-12/vocab.txt \
 --bert_config_file=./bert_base/NER_bert/BERT_BASE_DIR/uncased_L-12_H-768_A-12/bert_config.json \
 --init_checkpoint=./bert_base/BERT_BASE_DIR/uncased_L-12_H-768_A-12/bert_model.ckpt \
 --max_seq_length=128 \
